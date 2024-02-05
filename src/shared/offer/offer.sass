@@ -1,0 +1,51 @@
+.offer-sec
+    .subscribe-card
+        padding: 50px 30px
+        margin: auto
+        background: #FAFAFA
+        border: 1px solid #0606061A
+        img
+            height: 60px
+            width: 60px
+            object-fit: cover
+        p
+            // display: -webkit-box
+            // -webkit-line-clamp: 3
+            // -webkit-box-orient: vertical
+            // overflow: hidden
+            // text-overflow: ellipsis
+            // height: 90px
+        .subscribe-btn
+            background: transparent
+            border: 1px solid #060606
+            border-radius: 0
+            color: #000
+            font-family: Switzera ADF Ext
+            &:hover
+                background: #000
+                color: #fff
+
+@media screen and (max-width: 1400px)
+    .subscribe-card
+        padding: 8px
+        img
+            height: 65px
+            width: 65px
+
+@media screen and (max-width: 1200px)
+    .subscribe-card
+
+@media screen and (max-width: 992px)
+    .subscribe-card
+        margin-bottom: 20px
+
+@media screen and (max-width: 767px)
+    .offer-sec
+        p
+            br
+                display: none
+    .subscribe-card
+        margin-bottom: 20px
+        p
+            padding: 0 !important
+            

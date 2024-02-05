@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "IndustryW00-Demi";
+  src: local("IndustryW00-Demi"),
+    url("./assets/fonts/Industry W00 Demi.ttf") format("truetype");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "Darker Grotesque Light";
+  src: local("Darker Grotesque Light"),
+    url("./assets/fonts/Darker Grotesque Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Switzera ADF Ext";
+  src: local("Switzera ADF Ext"),
+    url("./assets/fonts/SwitzeraADF-Ext.ttf") format("truetype");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "Industry";
+  src: local("Industry"),
+    url("./assets/fonts/Industry-Bold.ttf") format("truetype");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "MullerW00-Light";
+  src: local("MullerW00-Light"),
+    url("./assets/fonts/Muller\ W00\ Light.ttf") format("truetype");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "MullerBold";
+  src: local("MullerBold"),
+    url("./assets/fonts/MullerBold.ttf") format("truetype");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "Industry Light";
+  src: local("Industry Light"),
+    url("./assets/fonts/Industry-Light.ttf") format("truetype");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "Industry Medium";
+  src: local("Industry Medium"),
+    url("./assets/fonts/Industry\ Medium.ttf") format("truetype");
+  font-weight: normal
+}
+
+@font-face {
+  font-family: "MullerW00-Regular";
+  src: local("MullerW00-Regular"),
+    url("./assets/fonts/Muller\ W00\ Regular.ttf") format("truetype");
+  font-weight: normal
+}
+
+.container {
+  max-width: 1320px !important;
+}
